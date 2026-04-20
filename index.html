@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Practice Site</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- MathJax for rendering math formulas -->
+    <script src="https://jsdelivr.net"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Math Quiz</h1>
+        <div id="exercise-box">
+            <p id="question">Calculate the following: \( 12 \times 3 \)</p>
+            <input type="number" id="user-input" placeholder="Your answer">
+            <button onclick="checkResult()">Check Answer</button>
+            <p id="feedback"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
